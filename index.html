@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the box model</title>
+
+    <style>
+        .box-model-first {
+            margin-top: 24px;
+            margin-bottom: 0px;
+            margin-left: 24px;
+            margin-right: 24px;
+           
+            border-top: 3px solid red;
+            border-bottom: 3px solid maroon;
+            
+            padding: 20px;
+        }
+
+        .margin-top-zero {
+            margin-top: 30px;
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="box-model-first">this is a paragraph</p>
+    <p class="margin-top-zero">this has a zero margin on the top</p>
+    <p>this is a paragraph</p> <!-- apply a margin of 28px to all the sides of this paragraph-->
+    <p>this is a paragraph</p> <!--apply margin-top 16px and a border to all sides-->
+    <p>this is a paragraph</p> <!--apply a padding of 16px to the top of this element/ research on css grid and flexbox-->
+</body>
+</html>
